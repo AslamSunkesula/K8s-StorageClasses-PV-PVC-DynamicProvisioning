@@ -545,9 +545,6 @@ spec:
 
  We can see in the aws console as well that the volumes got created with alias as **dynamic-pvc**
 
-![pv5-dynamic-vol-provisioning-aws-cons-ebs-vol](https://github.com/user-attachments/assets/0632e713-dd84-47f8-8a5a-bb6082a30161)
-
-
 
 
 
