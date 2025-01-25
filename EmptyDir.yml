@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: troubleshooting
-          image: rajpractise/troubleshootingtools:v1
+          image: assu/troubleshootingtools:v1
           volumeMounts:
             - name: myemptydir
               mountPath: /etc/myemptydir

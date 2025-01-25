@@ -1,5 +1,4 @@
 # A Hands-On Guide to Kubernetes Volumes 🛠️
-![10](https://github.com/user-attachments/assets/46ba9266-5e37-4599-9fd9-b2a4d030ae5a)
 
 # Understanding PV, PVC & SC in Kubernetes: With Practical Examples
 
@@ -24,15 +23,6 @@ This repository provides examples and explanations of different Kubernetes stora
 
 
 ###########################################################################################################
-
-# Architecture flow Diagram:
-
-
-![architecture](https://github.com/user-attachments/assets/49a4340e-5507-426d-bc2d-74544b271dbd)
-
-
-
-
 
 
 # Lets see the Practicals of all one by one:
@@ -60,7 +50,7 @@ spec:
     spec:
       containers:
         - name: troubleshooting
-          image: rajpractise/troubleshootingtools:v1
+          image: assua/troubleshootingtools:v1
           volumeMounts:
             - name: myemptydir
               mountPath: /etc/myemptydir
