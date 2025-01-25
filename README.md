@@ -107,7 +107,7 @@ spec:
     spec:
       containers:
       - name: troubleshooting
-        image: rajpractise/troubleshootingtools:v1 
+        image: assua/troubleshootingtools:v1 
         volumeMounts:
           - name: containerdsock
             mountPath: "/run/containerd/containerd.sock"
